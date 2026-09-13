@@ -1,0 +1,12 @@
+# Ignore PDF documents
+*.pdf
+
+# Ignore generated PNG plots
+*.png
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+
+# Ignore report generation script
+generate_report.py
