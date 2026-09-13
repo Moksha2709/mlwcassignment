@@ -1,11 +1,5 @@
-"""
-Dataset Generation: 16-QAM over AWGN
-COM 837 - ML for Wireless Communication Systems
+#dataset generation
 
-Generates complex baseband 16-QAM symbols (I,Q in {-3,-1,1,3}), scaled so
-average symbol energy = 1, transmitted over AWGN at multiple SNR values.
-200 samples per constellation point per SNR value. Seed = 67.
-"""
 
 import numpy as np
 import pandas as pd
